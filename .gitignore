@@ -1,0 +1,18 @@
+# Binaries
+voter
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+*.test
+
+# Go
+vendor/
+
+# MacOS
+.DS_Store/
+
+# Environment file
+.env
