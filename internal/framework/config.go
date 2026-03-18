@@ -9,6 +9,8 @@ import (
 
 type Config struct {
 	DiscToken string `json:"disc_token"`
+	// add app token in the future.
+	// eventually add guild token to separate dev/prod potentially
 }
 
 func LoadEnv() *Config {
